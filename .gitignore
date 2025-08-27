@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Yarn Berry
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Testing
+coverage/
+.nyc_output/
+
+# Next.js
+.next/
+out/
+dist/
+
+# Electron
+dist-electron/
+release/
+*.asar
+
+# Build output
+dist/
+build/
+tmp/
+*.log
+
+# Editor & system files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Yarn & npm
+yarn-error.log
+.yarn-integrity
+package-lock.json
+
+# Environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
