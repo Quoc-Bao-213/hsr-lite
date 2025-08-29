@@ -24,6 +24,7 @@ Players can:
 
 ## 📂 Project Structure
 
+```bash
 .
 ├── electron/ # Electron main process code
 ├── src/ # Next.js source code
@@ -32,6 +33,7 @@ Players can:
 ├── tsconfig.json # TypeScript config for Next.js
 ├── tsconfig.electron.json # TypeScript config for Electron
 └── package.json
+```
 
 ---
 
